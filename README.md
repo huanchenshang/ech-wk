@@ -10,3 +10,5 @@
 wget https://raw.githubusercontent.com/huanchenshang/ech-wk/refs/heads/main/ech.sh
 chmod +x softrouter.sh
 ln -s /root/softrouter.sh /usr/bin/ech
+```
+以后运行只需要输入ech即可
