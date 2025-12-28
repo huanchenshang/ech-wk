@@ -1,7 +1,7 @@
 const WS_READY_STATE_OPEN = 1;
 const WS_READY_STATE_CLOSING = 2;
 const CF_FALLBACK_IPS = [
-    '114.32.9.249:51443'
+    'yxip'
 ];
 
 
@@ -15,7 +15,7 @@ import { connect } from 'cloudflare:sockets';
 export default {
     async fetch(request, env, ctx) {
         try {
-            const token = '14c5ff05-a2f1-461f-8b37-37c8a63f143c';
+            const token = '';
             const upgradeHeader = request.headers.get('Upgrade');
 
             if (!upgradeHeader || upgradeHeader.toLowerCase() !== 'websocket') {
